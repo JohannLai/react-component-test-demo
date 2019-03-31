@@ -9,6 +9,9 @@
     "globals": {
         "expect": true,
         "render": true,
+        "mount": true,
+        "shadow": true,
+        "jest": true,
         "Babel": true,
         "React": true
     },
@@ -16,6 +19,7 @@
         "react"
     ],
     "rules": {
+        "indent": ["error", 4],
         "global-require": "off",
         "import/no-unresolved": "off",
         "no-underscore-dangle": "off",
