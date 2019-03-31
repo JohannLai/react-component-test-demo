@@ -18,6 +18,12 @@
       "pre-commit": "lint-staged"
     }
   },
+	"lint-staged": {
+		"*.js": [
+			"eslint --fix",
+			"git add"
+		]
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JohannLai/react-component-test-demo.git"
