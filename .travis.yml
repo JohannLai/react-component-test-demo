@@ -13,6 +13,7 @@ jobs:
     - stage: lint
       script:
         - npm install
+        - npm install eslint -g
         - npm run lint
     - stage: test
       script:
